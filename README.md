@@ -10,7 +10,12 @@
 ![image](https://github.com/user-attachments/assets/7014801c-1377-4b34-8d91-7d775419445a)
 
 
-### Endpoint 2 / Measurement & Sensing 
+### Endpoint 2 / Measurement & Sensing
+
+ - [ElectricalSensorManager.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalSensorManager.cpp)
+   - [ElectricalEnergyMeasurementInstance.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalEnergyMeasurementInstance.cpp)
+   - [ElectricalPowerMeasurementDelegate.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalPowerMeasurementDelegate.cpp)
+
 
 **Electrical Power Measurement**
 
