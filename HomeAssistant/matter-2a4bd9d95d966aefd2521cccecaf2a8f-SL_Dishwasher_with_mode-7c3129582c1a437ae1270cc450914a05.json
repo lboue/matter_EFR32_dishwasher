@@ -1,4 +1,73 @@
-
+{
+  "home_assistant": {
+    "installation_type": "Home Assistant OS",
+    "version": "2024.8.1",
+    "dev": false,
+    "hassio": true,
+    "virtualenv": false,
+    "python_version": "3.12.4",
+    "docker": true,
+    "arch": "x86_64",
+    "timezone": "Europe/Paris",
+    "os_name": "Linux",
+    "os_version": "6.6.33-haos",
+    "supervisor": "2024.08.0",
+    "host_os": "Home Assistant OS 12.4",
+    "docker_version": "26.1.4",
+    "chassis": "vm",
+    "run_as_root": true
+  },
+  "custom_components": {
+    "hacs": {
+      "documentation": "https://hacs.xyz/docs/configuration/start",
+      "version": "1.34.0",
+      "requirements": [
+        "aiogithubapi>=22.10.1"
+      ]
+    }
+  },
+  "integration_manifest": {
+    "domain": "matter",
+    "name": "Matter (BETA)",
+    "codeowners": [
+      "home-assistant/matter"
+    ],
+    "config_flow": true,
+    "dependencies": [
+      "websocket_api"
+    ],
+    "documentation": "https://www.home-assistant.io/integrations/matter",
+    "iot_class": "local_push",
+    "requirements": [
+      "python-matter-server==6.3.0"
+    ],
+    "zeroconf": [
+      "_matter._tcp.local.",
+      "_matterc._udp.local."
+    ],
+    "is_built_in": true
+  },
+  "setup_times": {
+    "null": {
+      "setup": 1.6763000019182073e-05
+    },
+    "2a4bd9d95d966aefd2521cccecaf2a8f": {
+      "wait_import_platforms": -9.254599996211255e-05,
+      "wait_base_component": -2.4055932910000024,
+      "config_entry_setup": 2.836476332000018
+    }
+  },
+  "data": {
+    "server_info": {
+      "fabric_id": 2,
+      "compressed_fabric_id": 16462064151726707639,
+      "schema_version": 10,
+      "min_supported_schema_version": 9,
+      "sdk_version": "2024.7.1",
+      "wifi_credentials_set": false,
+      "thread_credentials_set": false,
+      "bluetooth_enabled": false
+    },
     "node": {
       "node_id": 54,
       "date_commissioned": "2024-08-15T07:14:29.055273",
@@ -1328,3 +1397,5 @@
       },
       "attribute_subscriptions": []
     }
+  }
+}
