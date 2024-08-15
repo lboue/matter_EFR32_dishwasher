@@ -14,3 +14,8 @@ Matter EFR32 Dishwasher Example
 **Electrical Power Measurement**
 
 ![image](https://github.com/user-attachments/assets/ddfbb224-b11e-4a1e-93b2-d57f4dfb1e53)
+
+
+**Electrical Energy Measurement**
+
+![image](https://github.com/user-attachments/assets/b4cb7019-05ec-4fe5-ab12-23983e34067d)
