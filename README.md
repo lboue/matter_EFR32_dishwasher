@@ -3,11 +3,14 @@
 [Matter EFR32 Dishwasher Example 2.3.0-1.3](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs)
 
 
-
+## ZCL 
 ![image](https://github.com/user-attachments/assets/91689a56-b549-4383-ab43-7b34babe7b3d)
 
 
 ![image](https://github.com/user-attachments/assets/7014801c-1377-4b34-8d91-7d775419445a)
+
+### Endpoint 1 / General / Dishwasher Mode
+![image](https://github.com/user-attachments/assets/03ce8ee9-f420-4479-9f80-3029ddbe82f1)
 
 
 ### Endpoint 2 / Measurement & Sensing
