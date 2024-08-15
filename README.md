@@ -1,5 +1,6 @@
 # Matter EFR32 Dishwasher Example
-Matter EFR32 Dishwasher Example
+
+[Matter EFR32 Dishwasher Example 2.3.0-1.3](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs)
 
 
 
