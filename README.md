@@ -115,6 +115,8 @@ To control the device's operational state, act on the [OperationalState cluster]
 ![image](https://github.com/user-attachments/assets/03ce8ee9-f420-4479-9f80-3029ddbe82f1)
 
 
+![image](https://github.com/user-attachments/assets/aac62dae-66a7-4a44-a900-87f6bc55590e)
+
 ### Endpoint 2 / Measurement & Sensing
 
  - [ElectricalSensorManager.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalSensorManager.cpp)
