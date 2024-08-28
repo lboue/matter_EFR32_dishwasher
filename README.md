@@ -37,7 +37,7 @@ An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boa
 
 TODO
 
-## Control
+## Control and Power Measurement
 
 ## Local
 
@@ -62,6 +62,22 @@ To control the device's operational state, act on the [OperationalState cluster]
     chip-tool operationalstate start 1 1
     chip-tool operationalstate stop 1 1
     chip-tool operationalstate pause 1 1
+
+#### Read ElectricalPowerMeasurement
+
+[ElectricalPowerMeasurement](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/ElectricalPowerMeasurement.xml) ClusterId 144 (0x0090)
+
+**Voltage**
+
+    chip-tool electricalpowermeasurement read voltage 2 2
+
+**Active-Power**
+
+    chip-tool electricalpowermeasurement read active-power 2 2
+
+**Active-Current**
+
+    chip-tool electricalpowermeasurement read active-current 2 2
 
 
 
