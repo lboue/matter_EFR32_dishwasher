@@ -115,8 +115,11 @@ To control the device's operational state, act on the [OperationalState cluster]
 ![image](https://github.com/user-attachments/assets/1e033fbe-7ed1-4153-8b27-5abb4e626eec)
 
 ### Endpoint 1 / General / Dishwasher Mode
+
+**PowerSource Cluster**
 ![image](https://github.com/user-attachments/assets/03ce8ee9-f420-4479-9f80-3029ddbe82f1)
 
+**OperationalState Cluster**
 ![image](https://github.com/user-attachments/assets/aac62dae-66a7-4a44-a900-87f6bc55590e)
 
 ### Endpoint 2 / Measurement & Sensing
@@ -132,13 +135,19 @@ To control the device's operational state, act on the [OperationalState cluster]
 ![image](https://github.com/user-attachments/assets/b4cb7019-05ec-4fe5-ab12-23983e34067d)
 
 ## Home Assistant
- 
-**Clusters on Endpoint 2 / Device Type(s): Electrical Sensor**
+
+### Clusters on Endpoint 1 / Device Type(s): Dishwasher
+
+ ![image](https://github.com/user-attachments/assets/600dad29-16b3-4601-9cd9-f49f41f26769)
+
+### Clusters on Endpoint 2 / Device Type(s): Electrical Sensor
 
 ![image](https://github.com/user-attachments/assets/659f1688-8b3e-408a-a861-bf7d006f6044)
 
 **Electrical Power Measurement**
 
 ![image](https://github.com/user-attachments/assets/cd59a039-3d7d-40f3-a362-e76a5ec3d94a)
+
+![image](https://github.com/user-attachments/assets/f7f8f8c5-6675-4a1b-bd48-649e4b4d22a2)
 
 
