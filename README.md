@@ -9,7 +9,7 @@ An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boa
 ## Hardware
 
  - [Silicon Labs xG24 Explorer Kit](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)
-   - [Buy EFR32xG24 Explorer Kit](https://www.digikey.com/en/product-highlight/s/silicon-laboratories/efr32xg24-explorer-kit)
+   - [Buy EFR32xG24 Explorer Kit](https://www.digikey.com/en/product-highlight/s/silicon-laboratories/efr32xg24-explorer-kit): $39.39
 
 
 ## Dishwasher Clusters
