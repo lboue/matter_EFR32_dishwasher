@@ -93,9 +93,13 @@ Control the operational mode:
 ![image](https://github.com/user-attachments/assets/b4cb7019-05ec-4fe5-ab12-23983e34067d)
 
 ## Home Assistant
+ 
+**Clusters on Endpoint 2 / Device Type(s): Electrical Sensor**
 
 ![image](https://github.com/user-attachments/assets/659f1688-8b3e-408a-a861-bf7d006f6044)
 
-![image](https://github.com/user-attachments/assets/42361092-52d8-4ce0-b1d7-04949613785b)
+**Electrical Power Measurement**
+
+![image](https://github.com/user-attachments/assets/cd59a039-3d7d-40f3-a362-e76a5ec3d94a)
 
 
