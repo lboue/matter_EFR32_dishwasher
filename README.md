@@ -34,3 +34,18 @@
 ![image](https://github.com/user-attachments/assets/659f1688-8b3e-408a-a861-bf7d006f6044)
 
 ![image](https://github.com/user-attachments/assets/42361092-52d8-4ce0-b1d7-04949613785b)
+
+
+## Control
+
+Control the operational mode:
+
+
+    chip-tool operationalstate start <node_id> <endpoint>
+    chip-tool operationalstate stop <node_id> <endpoint>
+    chip-tool operationalstate pause <node_id> <endpoint>
+
+    chip-tool operationalstate start 1 1
+    chip-tool operationalstate stop 1 1
+    chip-tool operationalstate pause 1 1
+
