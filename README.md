@@ -50,7 +50,28 @@ TODO
 | Rapid Even Flashing (100 ms on/100 ms off)     | The device is in the unprovisioned state and a commissioning application is connected through Bluetooth LE.    |
 | SteteStatShort Flash Off ; (950ms on/50ms off) | The device is fully provisioned, but does not yet have full Thread network or service connectivity.            |
 | Solid On                                       | The device is fully provisioned and has full Thread network and service connectivity.                          |
-            
+
+
+**LED 1** Shows the dishwasher working state following states are possible:
+
+| **State**  | **Description**                     |
+|------------|-------------------------------------|
+| Solid On   | dishwasher is running               |
+| Slow Blink | dishwasher is paused                |
+| Off        | dishwasher is stopped               |
+| Fast Blink | dishwasher has encountered an error |
+
+
+**Push Button 0** Pairing
+
+| **State**                | **Description**                                                                                                                                                                                              |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Press and Release        | Start, or restart, BLE advertisement in fast mode. It will advertise in this mode for 30 seconds. The device will then switch to a slower interval advertisement. After 15 minutes, the advertisement stops. |
+| Pressed and hold for 6 s | Initiates the factory reset of the device. Releasing the button within the 6-second window cancels the factory reset procedure. **LEDs** blink in unison when the factory reset procedure is initiated.      |
+
+
+**Push Button 1** Cycle the dishwasher operational states Running/Paused/Stopped
+
 ### Remote control with chip-tool
 
 To control the device's operational state, act on the [OperationalState cluster](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/OperationalState.xml):
