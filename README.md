@@ -110,26 +110,18 @@ To control the device's operational state, act on the [OperationalState cluster]
     chip-tool electricalpowermeasurement read active-current 2 2
 
 
-
 ### Matter clusters with ZAP tool
 
-![image](https://github.com/user-attachments/assets/91689a56-b549-4383-ab43-7b34babe7b3d)
-
-
-![image](https://github.com/user-attachments/assets/7014801c-1377-4b34-8d91-7d775419445a)
+![image](https://github.com/user-attachments/assets/1e033fbe-7ed1-4153-8b27-5abb4e626eec)
 
 ### Endpoint 1 / General / Dishwasher Mode
 ![image](https://github.com/user-attachments/assets/03ce8ee9-f420-4479-9f80-3029ddbe82f1)
-
 
 ![image](https://github.com/user-attachments/assets/aac62dae-66a7-4a44-a900-87f6bc55590e)
 
 ### Endpoint 2 / Measurement & Sensing
 
- - [ElectricalSensorManager.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalSensorManager.cpp)
-   - [ElectricalEnergyMeasurementInstance.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalEnergyMeasurementInstance.cpp)
-   - [ElectricalPowerMeasurementDelegate.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalPowerMeasurementDelegate.cpp)
-
+![image](https://github.com/user-attachments/assets/7014801c-1377-4b34-8d91-7d775419445a)
 
 **Electrical Power Measurement**
 
