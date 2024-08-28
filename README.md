@@ -1,15 +1,20 @@
 # Matter EFR32 Dishwasher Example
 
+## Software
+
+[Matter EFR32 Dishwasher Example 2.3.0-1.3](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs):
+An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boards.
+
+
 ## Hardware
 
  - [Silicon Labs xG24 Explorer Kit](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)
 
-[Matter EFR32 Dishwasher Example 2.3.0-1.3](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs)
 
 ## Dishwasher Clusters
 
 
-### ZAP tool
+### Matter clusters with ZAP tool
 
 ![image](https://github.com/user-attachments/assets/91689a56-b549-4383-ab43-7b34babe7b3d)
 
