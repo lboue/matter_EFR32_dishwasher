@@ -151,3 +151,7 @@ To control the device's operational state, act on the [OperationalState cluster]
 ![image](https://github.com/user-attachments/assets/f7f8f8c5-6675-4a1b-bd48-649e4b4d22a2)
 
 
+**ElectricalEnergyMeasurement event**
+```
+2024-08-28 22:26:23.721 (MainThread) VERBOSE [matter_server.server.device_controller] <Node:62> Received node event: EventReadResult(Header=EventHeader(EndpointId=2, ClusterId=145, EventId=0, EventNumber=524583, Priority=<EventPriority.INFO: 1>, Timestamp=946685094118, TimestampType=<EventTimestampType.EPOCH: 1>), Status=<Status.Success: 0>, Data=ElectricalEnergyMeasurement.Events.CumulativeEnergyMeasured(energyImported=ElectricalEnergyMeasurement.Structs.EnergyMeasurementStruct(energy=0, startTimestamp=10, endTimestamp=14, startSystime=10273, endSystime=14019), energyExported=ElectricalEnergyMeasurement.Structs.EnergyMeasurementStruct(energy=0, startTimestamp=None, endTimestamp=None, startSystime=None, endSystime=None))) - transaction: <Subscription (Id=3757335339)>
+```
