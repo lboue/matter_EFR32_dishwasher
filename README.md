@@ -53,8 +53,7 @@ TODO
             
 ### Remote control with chip-tool
 
-Control the operational mode:
-
+To control the device's operational state, act on the [OperationalState cluster](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/OperationalState.xml):
 
     chip-tool operationalstate start <node_id> <endpoint>
     chip-tool operationalstate stop <node_id> <endpoint>
