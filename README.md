@@ -13,6 +13,59 @@ An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boa
 
 ## Dishwasher Clusters
 
+### Endpoint 1 / General / Dishwasher Mode
+
+
+### Endpoint 2 / Measurement & Sensing
+
+ - [ElectricalSensorManager.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalSensorManager.cpp)
+   - [ElectricalEnergyMeasurementInstance.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalEnergyMeasurementInstance.cpp)
+   - [ElectricalPowerMeasurementDelegate.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalPowerMeasurementDelegate.cpp)
+
+**Electrical Power Measurement**
+
+![image](https://github.com/user-attachments/assets/ddfbb224-b11e-4a1e-93b2-d57f4dfb1e53)
+
+| **Mode** | **Voltage** | **ActiveCurrent** | **ReactiveCurrent** | **ApparentCurrent** | **ActivePower** | **ReactivePower** | **ApparentPower** | **RMSVoltage** | **RMSCurrent** | **RMSPower** | **Frequency** | **PowerFactor** | **NeutralCurrent** |
+|----------|:-----------:|:-----------------:|:-------------------:|:-------------------:|:---------------:|:-----------------:|:-----------------:|:--------------:|:--------------:|:------------:|:-------------:|:---------------:|:------------------:|
+| Stopped  |   230'000   |         0         |          0          |          0          |        0        |         0         |         0         |     120'000    |        0       |       0      |       50      |      98'00      |          0         |
+| Running  |   230'000   |       15'000      |        17'000       |        23'000       |     1800'000    |      2040'000     |      3000'000     |     120'000    |     15'000     |   1800'000   |       50      |      92'00      |       15'000       |
+| Paused   |   230'000   |        125        |         150         |         190         |      17'000     |       18'000      |       25'000      |     120'000    |       125      |    17'000    |       50      |      95'00      |         125        |
+| Error    |      0      |         0         |          0          |          0          |        0        |         0         |         0         |        0       |        0       |       0      |       0       |        0        |          0         |
+
+
+**Electrical Energy Measurement**
+
+TODO
+
+## Control
+
+## Local
+
+ **LED 0** shows the overall state of the device and its connectivity. The
+ following states are possible:
+
+| **State**                                      | **Description**                                                                                                |
+|------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Short Flash On (50 ms on/950 ms off)           | The device is in the unprovisioned (unpaired) state and is waiting for a commissioning application to connect. |
+| Rapid Even Flashing (100 ms on/100 ms off)     | The device is in the unprovisioned state and a commissioning application is connected through Bluetooth LE.    |
+| SteteStatShort Flash Off ; (950ms on/50ms off) | The device is fully provisioned, but does not yet have full Thread network or service connectivity.            |
+| Solid On                                       | The device is fully provisioned and has full Thread network and service connectivity.                          |
+            
+### Remote control with chip-tool
+
+Control the operational mode:
+
+
+    chip-tool operationalstate start <node_id> <endpoint>
+    chip-tool operationalstate stop <node_id> <endpoint>
+    chip-tool operationalstate pause <node_id> <endpoint>
+
+    chip-tool operationalstate start 1 1
+    chip-tool operationalstate stop 1 1
+    chip-tool operationalstate pause 1 1
+
+
 
 ### Matter clusters with ZAP tool
 
@@ -54,17 +107,4 @@ An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boa
 
 ![image](https://github.com/user-attachments/assets/42361092-52d8-4ce0-b1d7-04949613785b)
 
-
-## Control
-
-Control the operational mode:
-
-
-    chip-tool operationalstate start <node_id> <endpoint>
-    chip-tool operationalstate stop <node_id> <endpoint>
-    chip-tool operationalstate pause <node_id> <endpoint>
-
-    chip-tool operationalstate start 1 1
-    chip-tool operationalstate stop 1 1
-    chip-tool operationalstate pause 1 1
 
