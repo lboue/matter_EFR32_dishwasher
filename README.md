@@ -19,19 +19,26 @@ An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boa
 - [OperationalState Cluster](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/OperationalState.xml) on Endpoint 1 / ClusterId 96 (0x0060)
 - [PowerSource Cluster](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/PowerSourceCluster.xml) on Endpoint 1 / ClusterId 47 (0x002f)
 
-### Endpoint 2 / Measurement & Sensing
+### Clusters on Endpoint 2 / Device Type(s): Electrical Sensor
 
+- [ElectricalPowerMeasurement](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/ElectricalPowerMeasurement.xml) ClusterId 144 (0x0090)
+- [ElectricalEnergyMeasurement](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/ElectricalPowerMeasurement.xml) ClusterId 145 (0x0091)
+- [PowerTopology](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/PowerTopology.xml) ClusterId 156 (0x009c)
+
+**Source files**
  - [ElectricalSensorManager.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalSensorManager.cpp)
    - [ElectricalEnergyMeasurementInstance.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalEnergyMeasurementInstance.cpp)
    - [ElectricalPowerMeasurementDelegate.cpp](https://github.com/SiliconLabs/matter_extension/blob/main/silabs_examples/dishwasher-app/silabs/src/ElectricalPowerMeasurementDelegate.cpp)
 
 **Electrical Power Measurement**
 
+[Modes values in source code](https://github.com/SiliconLabs/matter_extension/blob/578f76f7accd060dd9bceffe56898467353488a3/silabs_examples/dishwasher-app/silabs/src/ElectricalPowerMeasurementDelegate.cpp#L182-L185)
+
 | **Mode** | **Voltage** | **ActiveCurrent** | **ReactiveCurrent** | **ApparentCurrent** | **ActivePower** | **ReactivePower** | **ApparentPower** | **RMSVoltage** | **RMSCurrent** | **RMSPower** | **Frequency** | **PowerFactor** | **NeutralCurrent** |
 |----------|:-----------:|:-----------------:|:-------------------:|:-------------------:|:---------------:|:-----------------:|:-----------------:|:--------------:|:--------------:|:------------:|:-------------:|:---------------:|:------------------:|
-| Stopped  |   230'000   |         0         |          0          |          0          |        0        |         0         |         0         |     120'000    |        0       |       0      |       50      |      98'00      |          0         |
-| Running  |   230'000   |       15'000      |        17'000       |        23'000       |     1800'000    |      2040'000     |      3000'000     |     120'000    |     15'000     |   1800'000   |       50      |      92'00      |       15'000       |
-| Paused   |   230'000   |        125        |         150         |         190         |      17'000     |       18'000      |       25'000      |     120'000    |       125      |    17'000    |       50      |      95'00      |         125        |
+| Stopped  |   120'000   |         0         |          0          |          0          |        0        |         0         |         0         |     120'000    |        0       |       0      |       50      |      98'00      |          0         |
+| Running  |   120'000   |       15'000      |        17'000       |        23'000       |     1800'000    |      2040'000     |      3000'000     |     120'000    |     15'000     |   1800'000   |       50      |      92'00      |       15'000       |
+| Paused   |   120'000   |        125        |         150         |         190         |      17'000     |       18'000      |       25'000      |     120'000    |       125      |    17'000    |       50      |      95'00      |         125        |
 | Error    |      0      |         0         |          0          |          0          |        0        |         0         |         0         |        0       |        0       |       0      |       0       |        0        |          0         |
 
 
