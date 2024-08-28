@@ -16,7 +16,7 @@ An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boa
 
 ### Clusters on Endpoint 1 / Device Type(s): Dishwasher
 
-- OperationalState Cluster on Endpoint 1 / ClusterId 96 (0x0060)
+- [OperationalState Cluster](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/OperationalState.xml) on Endpoint 1 / ClusterId 96 (0x0060)
 - [PowerSource Cluster](https://github.com/project-chip/connectedhomeip/blob/master/data_model/1.3/clusters/PowerSourceCluster.xml) on Endpoint 1 / ClusterId 47 (0x002f)
 
 ### Endpoint 2 / Measurement & Sensing
