@@ -50,7 +50,7 @@ TODO
 |------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Short Flash On (50 ms on/950 ms off)           | The device is in the unprovisioned (unpaired) state and is waiting for a commissioning application to connect. |
 | Rapid Even Flashing (100 ms on/100 ms off)     | The device is in the unprovisioned state and a commissioning application is connected through Bluetooth LE.    |
-| SteteStatShort Flash Off ; (950ms on/50ms off) | The device is fully provisioned, but does not yet have full Thread network or service connectivity.            |
+| Short Flash Off (950ms on/50ms off)            | The device is fully provisioned, but does not yet have full Thread network or service connectivity.            |
 | Solid On                                       | The device is fully provisioned and has full Thread network and service connectivity.                          |
 
 
