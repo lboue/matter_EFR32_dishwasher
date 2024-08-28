@@ -24,6 +24,12 @@
 
 ![image](https://github.com/user-attachments/assets/ddfbb224-b11e-4a1e-93b2-d57f4dfb1e53)
 
+| Mode    | Voltage | ActiveCurrent | ReactiveCurrent | ApparentCurrent | ActivePower | ReactivePower | ApparentPower | RMSVoltage | RMSCurrent | RMSPower | Frequency | PowerFactor | NeutralCurrent |
+|---------|:-------:|:-------------:|:---------------:|:---------------:|:-----------:|:-------------:|:-------------:|:----------:|------------|----------|-----------|-------------|----------------|
+| Stopped |  230 V  |      0 A      |                 |                 |             |               |               |            |            |          |           |             |                |
+| Running |   230V  |      15 A     |                 |                 |             |               |               |            |            |          |           |             |                |
+| Paused  |  230 V  |     0,15 A    |                 |                 |             |               |               |            |            |          |           |             |                |
+| Error   |   0 V   |      0 A      |                 |                 |             |               |               |            |            |          |           |             |                |
 
 **Electrical Energy Measurement**
 
