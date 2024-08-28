@@ -1,9 +1,16 @@
 # Matter EFR32 Dishwasher Example
 
+## Hardware
+
+ - [Silicon Labs xG24 Explorer Kit](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview)
+
 [Matter EFR32 Dishwasher Example 2.3.0-1.3](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs)
 
+## Dishwasher Clusters
 
-## ZCL 
+
+### ZAP tool
+
 ![image](https://github.com/user-attachments/assets/91689a56-b549-4383-ab43-7b34babe7b3d)
 
 
@@ -24,12 +31,13 @@
 
 ![image](https://github.com/user-attachments/assets/ddfbb224-b11e-4a1e-93b2-d57f4dfb1e53)
 
-| Mode    | Voltage | ActiveCurrent | ReactiveCurrent | ApparentCurrent | ActivePower | ReactivePower | ApparentPower | RMSVoltage | RMSCurrent | RMSPower | Frequency | PowerFactor | NeutralCurrent |
-|---------|:-------:|:-------------:|:---------------:|:---------------:|:-----------:|:-------------:|:-------------:|:----------:|------------|----------|-----------|-------------|----------------|
-| Stopped |  230 V  |      0 A      |                 |                 |             |               |               |            |            |          |           |             |                |
-| Running |   230V  |      15 A     |                 |                 |             |               |               |            |            |          |           |             |                |
-| Paused  |  230 V  |     0,15 A    |                 |                 |             |               |               |            |            |          |           |             |                |
-| Error   |   0 V   |      0 A      |                 |                 |             |               |               |            |            |          |           |             |                |
+| **Mode** | **Voltage** | **ActiveCurrent** | **ReactiveCurrent** | **ApparentCurrent** | **ActivePower** | **ReactivePower** | **ApparentPower** | **RMSVoltage** | **RMSCurrent** | **RMSPower** | **Frequency** | **PowerFactor** | **NeutralCurrent** |
+|----------|:-----------:|:-----------------:|:-------------------:|:-------------------:|:---------------:|:-----------------:|:-----------------:|:--------------:|:--------------:|:------------:|:-------------:|:---------------:|:------------------:|
+| Stopped  |   230'000   |         0         |          0          |          0          |        0        |         0         |         0         |     120'000    |        0       |       0      |       50      |      98'00      |          0         |
+| Running  |   230'000   |       15'000      |        17'000       |        23'000       |     1800'000    |      2040'000     |      3000'000     |     120'000    |     15'000     |   1800'000   |       50      |      92'00      |       15'000       |
+| Paused   |   230'000   |        125        |         150         |         190         |      17'000     |       18'000      |       25'000      |     120'000    |       125      |    17'000    |       50      |      95'00      |         125        |
+| Error    |      0      |         0         |          0          |          0          |        0        |         0         |         0         |        0       |        0       |       0      |       0       |        0        |          0         |
+
 
 **Electrical Energy Measurement**
 
