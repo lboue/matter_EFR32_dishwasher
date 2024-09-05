@@ -3,9 +3,8 @@
 ## Software
 
 - [Matter EFR32 Dishwasher Example 2.3.0-1.3](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs):
-- An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boards.
-
-[Dishwasher README](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs)
+  - An example showing the use of Matter on the Silicon Labs EFR32 MG12 and MG24 boards.
+- [Dishwasher README](https://github.com/SiliconLabs/matter/tree/release_2.3.0-1.3/silabs_examples/dishwasher-app/silabs)
 
 ## Hardware
 
