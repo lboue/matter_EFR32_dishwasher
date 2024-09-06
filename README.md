@@ -154,3 +154,12 @@ To control the device's operational state, act on the [OperationalState cluster]
 ```
 2024-08-28 22:26:23.721 (MainThread) VERBOSE [matter_server.server.device_controller] <Node:62> Received node event: EventReadResult(Header=EventHeader(EndpointId=2, ClusterId=145, EventId=0, EventNumber=524583, Priority=<EventPriority.INFO: 1>, Timestamp=946685094118, TimestampType=<EventTimestampType.EPOCH: 1>), Status=<Status.Success: 0>, Data=ElectricalEnergyMeasurement.Events.CumulativeEnergyMeasured(energyImported=ElectricalEnergyMeasurement.Structs.EnergyMeasurementStruct(energy=0, startTimestamp=10, endTimestamp=14, startSystime=10273, endSystime=14019), energyExported=ElectricalEnergyMeasurement.Structs.EnergyMeasurementStruct(energy=0, startTimestamp=None, endTimestamp=None, startSystime=None, endSystime=None))) - transaction: <Subscription (Id=3757335339)>
 ```
+
+
+### Native support for electrical/power measurements
+
+- [PR#125403: Add discovery schemas for Matter 1.3 power/energy sensors](https://github.com/home-assistant/core/pull/125403)
+
+Matter 1.3 introduced native support for electrical/power measurements:
+
+![image](https://github.com/user-attachments/assets/ec739425-ea37-49c3-9dee-688e30751d2a)
