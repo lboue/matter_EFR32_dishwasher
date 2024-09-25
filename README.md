@@ -162,4 +162,4 @@ To control the device's operational state, act on the [OperationalState cluster]
 
 Matter 1.3 introduced native support for electrical/power measurements:
 
-![image](https://github.com/user-attachments/assets/ec739425-ea37-49c3-9dee-688e30751d2a)
+![image](https://github.com/user-attachments/assets/311933aa-3f4c-4275-9e88-f1e21782fa81)
